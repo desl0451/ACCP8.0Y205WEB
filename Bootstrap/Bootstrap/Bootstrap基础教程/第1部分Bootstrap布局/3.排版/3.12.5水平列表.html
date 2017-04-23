@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3.12.5水平列表</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../../Bootstrap3.3.7/css/bootstrap.min.css"/>
+    <style type="text/css">
+        @media (min-width: 768px) {
+            .dl-horizontal dt {
+                float: left;
+                width: 160px;
+                overflow: hidden;
+                clear: left;
+                text-align: right;
+                text-overflow: ellipsis;
+                wite-space: nowrap;
+            }
+
+            .dl-horizontal dd {
+                margin-left: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+<dl>
+    <dt>语言</dt>
+    <dd>JavaScript</dd>
+    <dd>CSS</dd>
+    <dd>Html</dd>
+</dl>
+<dl class="dl-horizontal">
+    <dt>语言 当dt的宽度大于160px的时候,文本的内容最终将显示省略号</dt>
+    <dd>JavaScript</dd>
+    <dd>CSS</dd>
+    <dd>Html</dd>
+</dl>
+<script src="../../Bootstrap3.3.7/js/bootstrap.min.js"></script>
+<script src="../../Bootstrap3.3.7/js/jquery.min.js"></script>
+</body>
+</html>

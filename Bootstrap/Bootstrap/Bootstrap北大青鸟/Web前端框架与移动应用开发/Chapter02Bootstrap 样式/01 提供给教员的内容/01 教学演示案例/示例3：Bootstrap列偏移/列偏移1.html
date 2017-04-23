@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap列偏移</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+		body{
+			margin-top:20px;
+			color:#FFF;
+		}
+		.container{
+			outline:1px solid red;
+		}
+		.row div{
+			background:red;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-1">col-md-1</div>		
+		<div class="col-md-1">col-md-1</div>		
+		<div class="col-md-1">col-md-1</div>
+		<div class="col-md-4 col-md-offset-4">col-md-1 col-md-offset-4</div>		
+	</div>
+	<br/>
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4">col-md-1 col-md-offset-4</div>	
+	</div>
+	<br/>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-6">col-md-6 col-md-offset-6</div>
+	</div>
+</div>
+
+</body>
+</html>

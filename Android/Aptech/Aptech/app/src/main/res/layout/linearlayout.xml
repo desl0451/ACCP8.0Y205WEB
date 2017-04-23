@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--xmlns:android用于指定命名空间根元素-->
+
+<!--wrap_content则表示只占用足够显示自已内容的空间-->
+<!--
+    android:orientation指定其中的子组件的排列方式,
+    若指定为vertical则表示子组件垂直，horizontal表示水平排列
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!--match_parent和fill_parent它们都表示该组件将尽可能把父控件占满-->
+    <!--android:text表示控件显示的名称-->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button1"/>
+</LinearLayout>

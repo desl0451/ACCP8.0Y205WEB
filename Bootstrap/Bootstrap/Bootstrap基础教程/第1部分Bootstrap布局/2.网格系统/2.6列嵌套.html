@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.6列嵌套</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../../Bootstrap3.3.7/css/bootstrap.min.css"/>
+    <style type="text/css">
+        .rowfirst {height: 50px;background-color: #9d9d9d;border: 1px solid #5e5e5e;}
+        .nestedrow {background-color: #CFC7D8;border: 1px solid #0000FF;height: 25px;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 rowfirst">
+            <div class="row">
+                <div class="col-md-6 nestedrow">内嵌一列</div>
+                <div class="col-md-6 nestedrow">内嵌二列</div>
+            </div>
+        </div>
+        <div class="col-md-6 rowfirst">第一行(2)col-md-6</div>
+    </div>
+</div>
+<script src="../../Bootstrap3.3.7/js/bootstrap.min.js"></script>
+<script src="../../Bootstrap3.3.7/js/jquery.min.js"></script>
+</body>
+</html>

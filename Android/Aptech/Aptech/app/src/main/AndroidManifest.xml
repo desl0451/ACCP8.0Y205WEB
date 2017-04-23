@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--XML文件根节点,主要是定义android的命名空间-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.exam.test.aptech">
+
+    <!--定义整个应用的一些相关配置-->
+    <!--android:allowBackup="true"属性指定该应用是否加入系统的备份和恢复体系中-->
+    <!--android:icon为在设备主界面上出现的图标-->
+    <!--android:label为在设备主界面的图标下的应用名称-->
+    <!--android:supportsRtl为设备是否支持对界面进行从右到左的布局-->
+    <!--android:theme指定的是一个主题风格-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--Activity:对Android应用中的Activity进行声明, Android中有四大组件,即-->
+        <!--Activity,Service,BrodcastReceiver以及ContentProvider-->
+        <!--android:name对应Activity类名,Activity节点下面有intent-filter子节点-->
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

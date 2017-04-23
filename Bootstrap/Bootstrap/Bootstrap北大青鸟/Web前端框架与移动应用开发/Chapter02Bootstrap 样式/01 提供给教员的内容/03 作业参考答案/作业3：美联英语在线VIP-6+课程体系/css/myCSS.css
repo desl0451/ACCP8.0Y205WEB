@@ -1,0 +1,71 @@
+
+body {
+    margin-right: 20px;
+    font-family: "Helvetica Neue",Helvetica,Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif!important;
+}
+h2.btitle {
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 38px;
+    color: #00a080;
+    font-weight: 100;
+}
+
+
+
+/*6大课程体系，总有一款适合你*/
+#home_course {
+    padding-bottom: 100px;
+}
+h4.subtitle {
+    position: relative;
+    margin-bottom: 20px;
+    color: #666;
+    text-align: center;
+    line-height: 30px;
+}
+
+#home_course img.img-responsive {
+    display: inline-block;
+}
+#home_course div.row>div {
+    padding: 0;
+    margin: 0;
+}
+
+
+#home_course a.courseitem.ci1 {
+    background-color: rgba(217,80,114,.85);
+}
+#home_course a.courseitem {
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+[role=button] {
+    cursor: pointer;
+}
+
+#home_course a.courseitem.ci2 {
+    background-color: rgba(217,80,114,.65);
+}
+/*学伴*/
+#home_partner {
+    padding-bottom: 100px;
+    line-height: 25px;
+}
+h4.subtitle {
+    position: relative;
+    margin-bottom: 20px;
+    color: #666;
+    text-align: center;
+    line-height: 30px;
+}
+#home_partner .partneritem img.img-responsive {
+    width: 100%;
+    border-bottom: solid 5px #f6f792;
+}

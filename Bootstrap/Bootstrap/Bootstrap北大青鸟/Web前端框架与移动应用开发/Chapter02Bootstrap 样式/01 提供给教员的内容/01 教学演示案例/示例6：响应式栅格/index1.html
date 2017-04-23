@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>响应式栅格系统的使用</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style type="text/css" media="screen">
+        body{
+            color:#686868;
+            font-family: "微软雅黑"
+        }
+        .cont{
+            height:300px;
+            padding-top:30px;
+        }
+        .mysea {
+            color: #2AAAEC;
+        }
+        @media ( max-width: 768px) {
+            p {
+                 font-size: 12px;
+             }
+            h2{
+                font-size: 16px;
+            }
+            h3 {
+                font-size: 14px;
+            }
+            li{
+                font-size: 14px;
+                margin-left: 30px;
+            }
+            .myimg{
+                width: 50%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row cont">
+        <div class="col-md-4 text-center">
+            <img src="img/cont1.png" class="myimg">
+            <h2 class="mysea">SAE</h2>
+            <p>云应用</p>
+        </div>
+        <div class="col-md-8">
+            <h3>应用开发、优化及运行的PaaS云计算平台</h3>
+            <p>国内第一家公有云计算平台，支持PHP、Java、Python语言，提供Web应用开发所需的众多服务，国内最好的PaaS云计算平台</p>
+            <div class="row">
+                <ul class="col-md-6">
+                    <li>弹性扩展，负载均衡智能应对大数据处理请求</li>
+                    <li>沙箱技术隔离应用</li>
+                    <li>无需运维管理与架构设计</li>
+                </ul>
+                <ul class="col-md-6">
+                    <li>防火墙防止攻击</li>
+                    <li>99.95%SLA，首批可信云认证</li>
+                    <li>免费配额，零成本创业</li>
+                </ul>
+            </div>
+            <a href="#">了解详情</a>
+        </div>
+    </div>
+    <div class="row cont">
+        <div class="col-md-8">
+            <h3>应用开发、优化及运行的PaaS云计算平台</h3>
+            <p>国内第一家公有云计算平台，支持PHP、Java、Python语言，提供Web应用开发所需的众多服务，国内最好的PaaS云计算平台</p>
+            <div class="row">
+                <ul class="col-md-6">
+                    <li>弹性扩展，负载均衡智能应对大数据处理请求</li>
+                    <li>沙箱技术隔离应用</li>
+                    <li>无需运维管理与架构设计</li>
+                </ul>
+                <ul class="col-md-6">
+                    <li>防火墙防止攻击</li>
+                    <li>99.95%SLA，首批可信云认证</li>
+                    <li>免费配额，零成本创业</li>
+                </ul>
+            </div>
+            <a href="#">了解详情</a>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="img/cont2.png" class="myimg">
+            <h2 class="mysea">SAE</h2>
+            <p>云应用</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
