@@ -14,12 +14,21 @@ public class MainActivity extends AppCompatActivity {
         //setContentView(R.layout.relativelayout);
         //示例8  设置界面显示框架布局 (相对布局)
         //setContentView(R.layout.framelayout);
-        //上机练习3
-        //setContentView(R.layout.p293demo3);
+
         //示例9  表格布局
         //setContentView(R.layout.tablelayout);
+
+        //示例10  使用布局嵌套实现复杂的界面
+        //setContentView(R.layout.p299test10);
+
+
+        //**********************************************************
+        //上机练习3
+        //setContentView(R.layout.p293demo3);
         //上机练习4
-        setContentView(R.layout.p294demo4);
+        //setContentView(R.layout.p294demo4);
+        //上机练习5
+        setContentView(R.layout.p302demo5);
     }
 
 }

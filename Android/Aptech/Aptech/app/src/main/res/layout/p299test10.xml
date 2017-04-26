@@ -1,7 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <!--使用TableLayout来实现头部的8个功能-->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2,3">
 
+        <TableRow>
+
+            <Button
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="美食"/>
+
+            <Button
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="电影"/>
+
+            <Button
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="娱乐"/>
+
+            <Button
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="丽人"/>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="团购"/>
+
+            <Button
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="外卖"/>
+
+            <Button
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="酒店"/>
+
+            <Button
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="机票"/>
+        </TableRow>
+    </TableLayout>
+    <!--中间广告条,直接放一个UI组件即可-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="每分钟免一单"/>
+    <!--广告条下面的三个功能分区,可以使用LinearLayout实现-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="打牌抢购"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="周末特惠"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1分钟抽大奖"/>
+    </LinearLayout>
+    <!--最下面的2行2列的广告区,可以使用TableLayout来实现-->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="吃喝玩乐"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="送千万红包"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="闪惠一元吃"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="刮奖送手机"/>
+        </TableRow>
+
+    </TableLayout>
 </LinearLayout>
