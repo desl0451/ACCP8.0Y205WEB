@@ -6,31 +6,40 @@
     android:orientation指定其中的子组件的排列方式,
     若指定为vertical则表示子组件垂直，horizontal表示水平排列
 -->
+<!--android:gravity="right|bottom"设置控件对齐方式-->
+<!--android:background="#000"设置整个页面背景-->
+<!--android:layout_margin="20dp"设置背景与四周的距离-->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:layout_margin="20dp"
+    android:background="#000"
+    android:gravity="right|bottom"
+    android:orientation="vertical">
     <!--match_parent和fill_parent它们都表示该组件将尽可能把父控件占满-->
     <!--android:text表示控件显示的名称-->
+    <!--android:layout_gravity="center"设置控件在部局中对齐方式-->
+    <!--android:layout_height="0dp"与android:layout_weight="2"设置控件等比例显示-->
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button"/>
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Button"
+        />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_weight="2"
         android:text="Button"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_weight="2"
         android:text="Button1"/>
 </LinearLayout>

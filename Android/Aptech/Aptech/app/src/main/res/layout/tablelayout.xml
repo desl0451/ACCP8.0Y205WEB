@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:stretchColumns="0,2,3">
+
+    <TableRow>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="张三"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="男"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="28"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="1351111111"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="李莉"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="女"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="22"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="1351111112"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="王五"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="男"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="18"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="1351111113"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="赵四"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="男"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="58"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:text="1351111114"/>
+    </TableRow>
+</TableLayout>
