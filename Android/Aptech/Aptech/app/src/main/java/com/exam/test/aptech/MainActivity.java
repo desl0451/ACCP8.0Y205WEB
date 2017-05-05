@@ -2,6 +2,7 @@ package com.exam.test.aptech;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         //示例10  使用布局嵌套实现复杂的界面
         //setContentView(R.layout.p299test10);
-
+        //TODO 哈
 
         //**********************************************************
         //上机练习3
@@ -28,7 +29,11 @@ public class MainActivity extends AppCompatActivity {
         //上机练习4
         //setContentView(R.layout.p294demo4);
         //上机练习5
-        setContentView(R.layout.p302demo5);
+        //setContentView(R.layout.p302demo5);//有问题没有完成
+        setContentView(R.layout.main);
+        TextView tv = new TextView(this);
+        tv.setText("你好我的朋友!");
+        setContentView(tv);
     }
 
 }
